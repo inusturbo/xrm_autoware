@@ -12,4 +12,6 @@ bash set_swap.bash
 vcs import src < xrm_project.repos
 vcs import src < calibration_tools.repos
 
+source /opt/ros/humble/setup.bash
+
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
