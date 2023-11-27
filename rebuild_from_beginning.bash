@@ -27,5 +27,5 @@ pip3 install pyserial
 
 cd
 cd autoware
-
+source /opt/ros/humble/setup.bash
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
