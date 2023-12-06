@@ -23,7 +23,7 @@ repositories:
   # universe
   universe/autoware.universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
+    url: https://github.com/inusturbo/autoware.universe.git
     version: main
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
@@ -117,9 +117,9 @@ repositories:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
     version: main
-  vehicle/external/xrm_zmp_interface:
+  vehicle/external/xrm_vehicle_interface:
     type: git
-    url: https://github.com/inusturbo/xrm_zmp_interface.git
+    url: https://github.com/inusturbo/xrm_vehicle_interface.git
     version: main
   # param
   param/autoware_individual_params:
